@@ -1,0 +1,46 @@
+{
+  "name": "Mechanical Advantage",
+  "short_name": "Mech Adva",
+  "description": "Rope Mechanical Advantage",
+  "icons": [
+    { "src": "Pulley-16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "Pulley-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "Pulley-48.png", "sizes": "48x48", "type": "image/png" },
+    { "src": "Pulley-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "Pulley-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "Pulley-512.png", "sizes": "512x512", "type": "image/png" },
+    {
+      "src": "PulleyMasked-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "./",
+  "theme_color": "#f3f4f6",
+  "background_color": "#4c46e5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Mechanical Advantage",
+      "short_name": "MechAdva",
+      "description": "Rope Mechanical Advantage",
+      "url": "./",
+      "icons": [{ "src": "./Pulley-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "portrait.png",
+      "sizes": "360x640",
+      "type": "image/png"
+    },
+    {
+      "src": "landscape.png",
+      "sizes": "640x360",
+      "type": "image/png"
+    }
+  ]
+}
